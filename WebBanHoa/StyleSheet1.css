@@ -1,0 +1,40 @@
+﻿html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    box-sizing: border-box;
+}
+
+h3 {
+    margin-left: 5px;
+}
+
+.left {
+    width: 20%;
+    height: 500px;
+    background-color: aqua;
+    float: left;
+}
+
+.left a {
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 18px;
+    color: darkblue;
+}
+
+.left a:hover {
+    background-color: red;
+    font-weight: bold;
+}
+
+.right {
+    text-align:center;
+    width: 20%;
+    height: 500px;
+    background-color: bisque;
+    float: right;
+}
